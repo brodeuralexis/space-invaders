@@ -1,0 +1,41 @@
+{
+  "name": "space-invaders",
+  "version": "1.0.0",
+  "description": "A web-based space invaders game.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brodeuralexis/space-invaders.git"
+  },
+  "keywords": [
+    "web",
+    "game",
+    "typescript",
+    "space",
+    "invaders"
+  ],
+  "author": "Alexis Brodeur <brodeuralexis@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brodeuralexis/space-invaders/issues"
+  },
+  "homepage": "https://github.com/brodeuralexis/space-invaders#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.13",
+    "jest": "^24.8.0",
+    "parcel-bundler": "^1.12.3",
+    "ts-jest": "^24.0.2",
+    "tslint": "^5.16.0",
+    "tslint-config-standard": "^8.0.1",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "reflect-metadata": "^0.1.13"
+  }
+}
